@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh
+}
+
+body {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.16) 100%), url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px); /* Safari support */
+}

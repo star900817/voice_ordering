@@ -1,0 +1,9 @@
+.social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-wrapper > span {
+    margin: 12px;
+}

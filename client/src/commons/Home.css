@@ -1,0 +1,63 @@
+.home-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    /* font-size: 8vw; */
+    font-size: min(max(40px, 8vw), 75px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 112.5%;
+    letter-spacing: 3.05px;
+    margin: 0px;
+}
+
+.header2 > span {
+    color: #EF9E00;
+}
+
+.header-wrapper {
+    margin-top: 125px;
+}
+
+.searchbox-container {
+    margin: auto;
+    margin-top: 160px;
+    width: 90%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+}
+
+.homeline-container {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-container {
+    width: 100%;
+    margin-top: 50px;
+    min-height: 100%;
+    /* overflow: auto; */
+    /* margin-bottom: 200px; */
+}
+
+.chat-container > .user-message-container {
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.chat-container > .bot-message-container {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+
+
+.social-container {
+    margin-top: 100px;
+}
